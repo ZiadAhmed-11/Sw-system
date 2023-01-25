@@ -1,0 +1,36 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.card:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    transition: transform 0.2s ease;
+  }
+  .card {
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+  } 
+  
+  .zezo
+  {
+    background-image: url('bbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100em;
+    background-attachment: fixed;
+}
+
